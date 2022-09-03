@@ -8,6 +8,10 @@ if (a > 0 && a < 8) {
     {
         Console.WriteLine("Это выходной");
     }
+    else 
+    {
+        Console.WriteLine("Это НЕ выходной");
+    }
 }
 else {
     Console.WriteLine("Не путай меня");
