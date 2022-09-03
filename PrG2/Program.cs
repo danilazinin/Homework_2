@@ -16,6 +16,6 @@ else
     else 
     {
         int a3 = a % 10;
-        Console.WriteLine(a3);
+        Console.WriteLine($"третья цифра - {a3}");
     }
 }
