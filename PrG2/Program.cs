@@ -3,7 +3,7 @@
 Console.WriteLine("введите трехзначное число");
 int a = int.Parse(Console.ReadLine());
 
-if (a < 100)
+if (a < 100 && a >= 10)
 {
      Console.WriteLine("нет третьей цифры");
 }
@@ -15,7 +15,17 @@ else
     }
     else 
     {
-        int a3 = a % 10;
-        Console.WriteLine($"третья цифра - {a3}");
+        if (a < 10)
+        {
+            Console.WriteLine("Введите трехзначное число");
+        }
+        else 
+        {
+            int a3 = a % 10;
+            Console.WriteLine($"третья цифра - {a3}");
+        }
     }
 }
+        
+
+  
