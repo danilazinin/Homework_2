@@ -4,7 +4,7 @@ int a = int.Parse(Console.ReadLine());
 string[] weekDays = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
 if (a > 0 && a < 8) {
     Console.WriteLine(weekDays[a-1]);
-    if ( a - 1 ==7 || a - 1 ==6)
+    if ( a - 1 == 6 || a - 1 == 5 )
     {
         Console.WriteLine("Это выходной");
     }
